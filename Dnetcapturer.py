@@ -1,4 +1,7 @@
 #! /usr/bin/env python
+#The module argparse is used to input the values in the terminal by the user using set of steps.
+#The module scapy is used to send and receive packets and it works both in python2 and 3.
+#Officially coded by Dot Intro
 import argparse
 import scapy.all as scapy
 def scapypart(ip):
